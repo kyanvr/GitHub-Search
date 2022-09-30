@@ -1,0 +1,32 @@
+.detail {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 200px;
+    right: 200px;
+    width: 40%;
+    min-height: 40%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.userAvatar {
+    width: 35%;
+}
+
+.userHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin-bottom: 30px;
+}
+
+.userHeader h2 {
+    text-align: center;
+    width: 100%;
+}
